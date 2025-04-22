@@ -1,0 +1,16 @@
+{
+  "name": "business-cooperative-website",
+  "version": "1.0.0",
+  "description": "A modern business cooperative website built with HTML, CSS, and Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 

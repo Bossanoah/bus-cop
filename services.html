@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Business Cooperative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-purple-600">Cooperative</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-purple-600 focus:outline-none" aria-label="Toggle menu">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-purple-600">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-purple-600">About</a>
+                    <a href="services.html" class="text-purple-600">Services</a>
+                    <a href="members.html" class="text-gray-700 hover:text-purple-600">Members</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-purple-600">Contact</a>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Home</a>
+                    <a href="about.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">About</a>
+                    <a href="services.html" class="block px-3 py-2 text-purple-600">Services</a>
+                    <a href="members.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Members</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-purple-600 to-purple-800 text-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-6">Our Services</h1>
+            <p class="text-xl mb-8">Comprehensive solutions for business growth and success</p>
+        </div>
+    </section>
+
+    <!-- Main Services Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Business Development -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-600">Business Development</h3>
+                    <p class="text-gray-600 mb-4">Strategic planning and growth initiatives for your business.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Market analysis and research</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Business strategy development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Growth planning and implementation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Competitive analysis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Business model optimization</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Resource Sharing -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-600">Resource Sharing</h3>
+                    <p class="text-gray-600 mb-4">Access to shared tools, equipment, and facilities.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Shared workspace facilities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Equipment and tool sharing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Resource optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Technology infrastructure</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Logistics support</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Training Programs -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-600">Training Programs</h3>
+                    <p class="text-gray-600 mb-4">Professional development and skill enhancement workshops.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Leadership training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Technical skills development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Business management courses</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Digital transformation training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Industry-specific certifications</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Additional Services</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-600">Networking Events</h3>
+                    <p class="text-gray-600 mb-4">Regular networking events and business meetups to connect with other members and industry professionals.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Monthly networking events</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Industry-specific meetups</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Business matchmaking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Annual business summit</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Virtual networking sessions</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-4 text-purple-600">Consulting Services</h3>
+                    <p class="text-gray-600 mb-4">Expert consulting services to help your business grow and succeed.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Business strategy consulting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Financial planning and analysis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Marketing and branding support</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Operational efficiency consulting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Technology implementation support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Benefits Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Benefits of Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Cost Savings</h3>
+                    <p class="text-gray-600 text-center">Access shared resources and reduce operational costs through our cooperative model.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Growth Acceleration</h3>
+                    <p class="text-gray-600 text-center">Leverage our expertise and resources to accelerate your business growth.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4 text-center">Community Support</h3>
+                    <p class="text-gray-600 text-center">Join a network of like-minded businesses and receive ongoing support and guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Service Process</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Discovery</h3>
+                    <p class="text-gray-600">Initial consultation to understand your business needs and goals.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Planning</h3>
+                    <p class="text-gray-600">Develop a customized service plan tailored to your requirements.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Implementation</h3>
+                    <p class="text-gray-600">Execute the plan with expert guidance and support.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="bg-purple-100 text-purple-600 rounded-full p-3 w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold">4</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Review</h3>
+                    <p class="text-gray-600">Regular assessment and optimization of services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Cooperative</h3>
+                    <p class="text-gray-400">Building stronger businesses through collaboration.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Business Cooperative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html> 

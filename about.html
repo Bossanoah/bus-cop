@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Business Cooperative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-purple-600">Cooperative</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-purple-600 focus:outline-none" aria-label="Toggle menu">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-purple-600">Home</a>
+                    <a href="about.html" class="text-purple-600">About</a>
+                    <a href="services.html" class="text-gray-700 hover:text-purple-600">Services</a>
+                    <a href="members.html" class="text-gray-700 hover:text-purple-600">Members</a>
+                    <a href="contact.html" class="text-gray-700 hover:text-purple-600">Contact</a>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Home</a>
+                    <a href="about.html" class="block px-3 py-2 text-purple-600">About</a>
+                    <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Services</a>
+                    <a href="members.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Members</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-purple-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-r from-purple-600 to-purple-800 text-white">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-6">About Our Cooperative</h1>
+            <p class="text-xl mb-8">Learn more about our mission, vision, and values</p>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h2 class="text-3xl font-bold mb-6 text-purple-600">Our Mission</h2>
+                    <p class="text-gray-600 mb-4">We are dedicated to fostering business growth through collaborative efforts, shared resources, and mutual support among our members.</p>
+                    <p class="text-gray-600 mb-4">Our mission is to create a sustainable ecosystem where businesses can thrive together, leveraging collective strength to achieve individual success.</p>
+                    <p class="text-gray-600">Through innovative programs and strategic partnerships, we empower businesses to reach their full potential while contributing to the economic development of our community.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h2 class="text-3xl font-bold mb-6 text-purple-600">Our Vision</h2>
+                    <p class="text-gray-600 mb-4">To create a thriving business ecosystem where every member can achieve sustainable growth and success.</p>
+                    <p class="text-gray-600 mb-4">We envision a future where businesses work together to create a stronger, more resilient economy for all.</p>
+                    <p class="text-gray-600">Our vision extends beyond immediate business success to include long-term community impact, environmental sustainability, and the creation of lasting value for all stakeholders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Core Values</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">Collaboration</h3>
+                    <p class="text-gray-600 mb-4">We believe in the power of working together to achieve common goals and create mutual benefits.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Cross-industry partnerships</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Knowledge sharing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Collective problem-solving</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">Innovation</h3>
+                    <p class="text-gray-600 mb-4">We encourage creative thinking and embrace new ideas to drive business growth and development.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Technology adoption</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Process improvement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Market innovation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4 text-purple-600">Sustainability</h3>
+                    <p class="text-gray-600 mb-4">We are committed to building businesses that are environmentally and economically sustainable.</p>
+                    <ul class="space-y-2 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Environmental responsibility</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Economic viability</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-purple-600 mr-2">✓</span>
+                            <span>Social impact</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-2">John Smith</h3>
+                    <p class="text-purple-600 mb-2">Chief Executive Officer</p>
+                    <p class="text-gray-600">With over 20 years of experience in business development and cooperative management, John leads our organization with vision and dedication.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-2">Emily Davis</h3>
+                    <p class="text-purple-600 mb-2">Chief Operations Officer</p>
+                    <p class="text-gray-600">Emily brings extensive experience in operations management and strategic planning to ensure our cooperative runs efficiently.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                    <h3 class="text-xl font-semibold mb-2">Michael Rodriguez</h3>
+                    <p class="text-purple-600 mb-2">Chief Financial Officer</p>
+                    <p class="text-gray-600">Michael oversees our financial operations and ensures sustainable growth through sound financial management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our History</h2>
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 text-purple-600 rounded-full p-3 mr-4">
+                            <span class="text-xl font-bold">2010</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Foundation</h3>
+                            <p class="text-gray-600">Our cooperative was founded with a vision to support local businesses and foster economic growth. We started with just 10 founding members.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 text-purple-600 rounded-full p-3 mr-4">
+                            <span class="text-xl font-bold">2015</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Expansion</h3>
+                            <p class="text-gray-600">We expanded our services and membership base, reaching new markets and industries. Our member count grew to over 100 businesses.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 text-purple-600 rounded-full p-3 mr-4">
+                            <span class="text-xl font-bold">2020</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Digital Transformation</h3>
+                            <p class="text-gray-600">We embraced digital technologies to better serve our members and enhance collaboration. Launched our online platform and mobile app.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-purple-100 text-purple-600 rounded-full p-3 mr-4">
+                            <span class="text-xl font-bold">2024</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Current Growth</h3>
+                            <p class="text-gray-600">Today, we serve over 500 businesses across multiple industries, with a strong focus on innovation and sustainable growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Impact</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">500+</div>
+                    <p class="text-gray-600">Member Businesses</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">$50M+</div>
+                    <p class="text-gray-600">Annual Revenue Generated</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">1000+</div>
+                    <p class="text-gray-600">Jobs Created</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">15+</div>
+                    <p class="text-gray-600">Industries Served</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Cooperative</h3>
+                    <p class="text-gray-400">Building stronger businesses through collaboration.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Business Cooperative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html> 
